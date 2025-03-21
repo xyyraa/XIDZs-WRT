@@ -31,6 +31,7 @@ on:
           - Amlogic s905x3 HK1-Vontar-X3
           - Amlogic s905x3 X96Max+_100Mb
           - Amlogic s905x3 X96Max+_1Gb
+          - RK3318-BOX
       tunnel:
         description: "Select VPN Client app:"
         required: true
@@ -96,7 +97,8 @@ jobs:
               "Amlogic s905x3 X96Air_100mb",
               "Amlogic s905x3 HK1-Vontar-X3",
               "Amlogic s905x3 X96Max+_100Mb",
-              "Amlogic s905x3 X96Max+_1Gb"
+              "Amlogic s905x3 X96Max+_1Gb",
+              "RK3318-BOX"
             ]
           }
           EOJ
